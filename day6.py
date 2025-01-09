@@ -21,3 +21,10 @@ iterate_var3=iter(listx)
 print(iterate_var3)
 for z in iterate_var3:
     print(z)
+#Generator
+def square (i):
+    for i in range(i):
+        i = i+2
+        return i
+    res = square(20)
+    print(res)
