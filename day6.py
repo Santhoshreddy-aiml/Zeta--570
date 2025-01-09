@@ -13,3 +13,11 @@ print(iterate_var1)
 for k in iterate_var1:
     if k % 2 == 0:
         print(k)
+#checkvthe blow list and display the 
+# string where the string contain 'a' letter with iterator
+#list = ["aaa","wer","aer","ggt"]
+listx = ["aaa","wer","aer","ggt"]
+iterate_var3=iter(listx)
+print(iterate_var3)
+for z in iterate_var3:
+    print(z)
