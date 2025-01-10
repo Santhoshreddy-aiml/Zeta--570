@@ -1,8 +1,14 @@
-def dev_dec(func)
-def inner(a,b):
-if a < b:
+from google.colab import files
+import pandas as pd
 
-a,b = b,a
-return func(a,b)
-return inner
-@dev_dec
+#upload the file local system 
+uploaded = files.upload()
+
+#Get the filename of the uploaded file
+aaa = list(uploaded.keys())[0]
+
+#Read the csv file using pandas 
+df = pd.read_csv(aaa)
+df.head(20)
+df.tail(10)
+#Display 
