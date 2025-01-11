@@ -11,4 +11,5 @@ aaa = list(uploaded.keys())[0]
 df = pd.read_csv(aaa)
 df.head(20)
 df.tail(10)
-#Display 
+#Display the dataframe
+#df.iloc[2:9] # dispifo()lay first few rows
