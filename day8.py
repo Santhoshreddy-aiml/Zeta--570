@@ -21,4 +21,3 @@ print(string[::-1])
 #we should get the output as "bigg buzz"
 res = [("bigg","buzz") for i in range(0,50)if i % 3 == 0 ] 
 print(res)
-    
